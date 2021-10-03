@@ -28,6 +28,7 @@ module.exports = {
       options: {
         alias: {
           "@components": "src/components",
+          "@context": "src/context",
           "@images": "src/images",
         },
         extensions: ["ts", "tsx"],

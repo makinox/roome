@@ -1,5 +1,7 @@
-import { FluidContainer } from "@makinox/makinox-ui";
 import React from "react";
+import { FluidContainer } from "@makinox/makinox-ui";
+
+import AssetCard from "@components/AssetCard/AssetCard";
 import AssetContainerStyles from "./AssetContainer.styled";
 
 export default function AssetContainer() {
@@ -7,18 +9,9 @@ export default function AssetContainer() {
     <section
       className={`flex justify-between ${FluidContainer()} ${AssetContainerStyles()}`}
     >
-      <article>
-        <span>Title</span>
-        <span>Description</span>
-      </article>
-      <article>
-        <span>Title</span>
-        <span>Description</span>
-      </article>
-      <article>
-        <span>Title</span>
-        <span>Description</span>
-      </article>
+      <AssetCard title="titulo" description="subtitle" />
+      <AssetCard title="titulo" description="subtitle" />
+      <AssetCard title="titulo" description="subtitle" />
     </section>
   );
 }
