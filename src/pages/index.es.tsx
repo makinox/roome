@@ -1,6 +1,5 @@
 import * as React from 'react';
-// import Seo from '../components/Seo/Seo';
-import messages from '../lang/messages/en';
+import messages from '../lang/messages/es';
 
 const IndexPage = () => {
   return (

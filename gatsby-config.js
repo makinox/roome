@@ -1,3 +1,5 @@
+const languages = require('./src/lang/languajes.ts');
+
 module.exports = {
   siteMetadata: {
     title: 'Roome',
@@ -6,6 +8,7 @@ module.exports = {
     siteUrl: 'https://roome.jesusbossa.dev/',
     keywords: ['Roome', 'Museum', 'NFT', 'Opensea', 'Jesus bossa', 'Jesus david bossa'],
     image: '/preview.png',
+    languages,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,6 +16,15 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyForNull: 'any',
+        langKeyDefault: languages.defaultLangKey,
+        useLangKeyLayout: true,
+        prefixDefault: false,
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
