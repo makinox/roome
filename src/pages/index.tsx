@@ -1,6 +1,6 @@
 import * as React from "react";
-import Navbar from "@components/Navbar/Navbar";
-import AssetContainer from "@components/AssetContainer/AssetContainer";
+import Navbar from "../components/Navbar/Navbar";
+import AssetContainer from "../components/AssetContainer/AssetContainer";
 // import Seo from '../components/Seo/Seo';
 import messages from "../lang/messages/en";
 

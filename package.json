@@ -17,7 +17,6 @@
     "@makinox/makinox-ui": "^1.5.2",
     "@stitches/core": "^1.2.1",
     "gatsby": "^3.13.1",
-    "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-image": "^1.14.0",
     "gatsby-plugin-manifest": "^3.14.0",

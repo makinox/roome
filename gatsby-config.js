@@ -24,17 +24,6 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
-      resolve: `gatsby-plugin-alias-imports`,
-      options: {
-        alias: {
-          "@components": "src/components",
-          "@context": "src/context",
-          "@images": "src/images",
-        },
-        extensions: ["ts", "tsx"],
-      },
-    },
-    {
       resolve: "gatsby-plugin-i18n",
       options: {
         langKeyForNull: "any",

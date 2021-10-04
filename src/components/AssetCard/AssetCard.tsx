@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Card } from "@makinox/makinox-ui";
 
-import { AppContext } from "@context/context";
+import { AppContext } from "../../context/context";
 
 export default function AssetCard({ title, subtitle }) {
   const { isDark } = useContext(AppContext);
